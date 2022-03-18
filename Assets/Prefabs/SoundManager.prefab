@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5504932528428447554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5504932528428447552}
+  - component: {fileID: 5504932528428447553}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5504932528428447552
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504932528428447554}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5504932528428447553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5504932528428447554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e75c31a2d734584dab10f04c587288f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Fire
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: fd9ac6eedacabd14a969dd6e1e340144, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: Walk1
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: ff086d3d2e5481a4b97e1f6c07883076, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: Walk2
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 015539b489d7e364f9b51dbcd0c294a8, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: Walk3
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 90068e2d256767440a51fee05771b84c, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: DeathEnemy
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 6f24d299c50a73445b659acd8c7d3fef, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: Jump
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: 8e9651787cef7dd4eb75f33a7c87a8e0, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: Pick
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: a8c9a3285179158489a0c6615953441b, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  - name: Drop
+    source: {fileID: 0}
+    clip: {fileID: 8300000, guid: e03f20fe4d57c5c4d921456ccc947c2f, type: 3}
+    pitch: 1
+    volume: 1
+    duration: 0
+    isLooping: 0
+  Music: 0
